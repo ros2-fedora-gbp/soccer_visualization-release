@@ -1,1 +1,1 @@
-{"base": "0061418", "parent": "debian/rolling/soccer_marker_generation", "previous": "b0b5f2e", "trim": "", "trimbase": ""}
+{"base": "df6f139", "parent": "debian/humble/soccer_marker_generation", "previous": "cec6552", "trim": "", "trimbase": ""}
