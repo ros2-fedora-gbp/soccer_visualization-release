@@ -1,0 +1,12 @@
+Source: ros-humble-soccer-marker-generation
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-rclcpp, ros-humble-soccer-object-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-soccer-marker-generation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rclcpp, ros-humble-soccer-object-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: Generates rviz display markers from soccer msgs
